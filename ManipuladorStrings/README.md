@@ -1,4 +1,4 @@
-#Manipulador de Strings
+Manipulador de Strings
 
 Parte 1 e parte 2 foram implementados em métodos diferentes.
 
