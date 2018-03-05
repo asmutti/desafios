@@ -1,4 +1,4 @@
-package manipuladorStrings;
+package strings;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -17,7 +17,7 @@ public class App {
 		
 		
 		
-		System.out.println("Para texto alinhado e n„o justificado, digite 1.");
+		System.out.println("Para texto alinhado e n√£o justificado, digite 1.");
 		System.out.println("Para texto justificado, digite 2.");
 		System.out.println();
 		

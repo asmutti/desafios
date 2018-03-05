@@ -1,4 +1,5 @@
-package manipuladorStrings;
+package strings;
+
 import java.nio.file.attribute.AclEntry.Builder;
 import java.text.BreakIterator;
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class Manipulador {
 			String palavra = pTexto.substring(inicio, fim);
 			
 			if(palavra.length() > pComprimento) {
-				throw new Exception("Uma palavra no seu texto é maior que o comprimento de linha desejado. Por favor altere o comprimento da linha ou altere a palavra.");
+				throw new Exception("Uma palavra no seu texto Ã© maior que o comprimento de linha desejado. Por favor altere o comprimento da linha ou altere a palavra.");
 			}
 			
 			tamanhoLinha = tamanhoLinha + palavra.length();
@@ -46,7 +47,7 @@ public class Manipulador {
 				
 	}
 	  /*
-	   * Cada linha do texto é salvo em um slot da lista.
+	   * Cada linha do texto Ã© salvo em um slot da lista.
 	   * 
 	   */
 	  List<String> justificadorTexto (String[] pPalavras, int pComprimento) {
@@ -91,7 +92,7 @@ public class Manipulador {
 						sBuilder.append(" ");
 					}
 					
-					//se for necessário mais de um espaço entre determinado conjunto de palavras.
+					//se for necessÃ¡rio mais de um espaÃ§o entre determinado conjunto de palavras.
 					if(aux > 0) {
 						sBuilder.append(" ");
 						aux--;
